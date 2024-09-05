@@ -156,7 +156,7 @@ class Sempinterno
                 {
                     continuar = false;
                     Console.WriteLine($"Total de la compra: {totalCompra} Lps");
-                    Console.WriteLine("/// Gracias por su compra MY LOVE :) ///");
+                    Console.WriteLine("/// Gracias por su compra MY LOVE :)//");
                 }
             }
     }
