@@ -10,9 +10,9 @@ class Sempinterno
         {
             Console.Clear();
             Console.WriteLine("//// Bienvenido al Sistema de Ventas Sempinterno ////");
-            Console.WriteLine(" Favor Ingresar Su Nombre:");
+            Console.Write(" Favor Ingresar Su Nombre:");
             string nombre = Console.ReadLine();
-            Console.WriteLine(" Favor Ingresar Su Edad:");
+            Console.Write(" Favor Ingresar Su Edad:");
             string edad = Console.ReadLine();
 
             Console.WriteLine("///Elija Su Genero Literario Favorito///");
@@ -138,9 +138,9 @@ class Sempinterno
             }
 
             if (cantidad >= 10 && cantidad <= 50)
-                descuento = 0.05;
+                descuento = 0.15;
             else if (cantidad > 50)
-                descuento = 0.10;
+                descuento = 0.20;
 
             double subtotal = precio * cantidad;
             double totalDescuento = subtotal * descuento;
@@ -155,7 +155,9 @@ class Sempinterno
             continuar = false;
             Console.WriteLine($"Total de la compra: {totalCompra} Lps");
             Console.WriteLine("/// Gracias por su compra MY LOVE :) ///");
-        }
+
+           
+         }     
     }
 }
 
